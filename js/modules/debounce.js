@@ -1,3 +1,5 @@
+// function de debounce para o anima-scroll
+
 export default function debounce(callback, delay) {
   let timer;
   return (...args) => {
